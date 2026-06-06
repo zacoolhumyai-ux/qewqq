@@ -59,7 +59,7 @@ local function QueueNextServer()
         -- ใช้ซอร์สโค้ดเดิมนี้ไปรันต่ออัตโนมัติทันทีเมื่อโหลดเข้าเซิร์ฟเวอร์ใหม่สำเร็จ
         queue([[
             repeat task.wait() until game:IsLoaded()
-            loadstring(game:HttpGet(""))() 
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zacoolhumyai-ux/qewqq/main/wea"))() 
             -- เพื่อความชัวร์และเสถียรที่สุด ระบบจะทำการสั่งรันโค้ดหลักซ้ำให้อัตโนมัติในฝั่ง Client ของเซิร์ฟถัดไปครับ
         ]])
     end
